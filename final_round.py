@@ -12,7 +12,7 @@ pole = PhotoImage(file='resources/pole.gif')
 canvas.create_image(0, 0, anchor=NW, image=pole)
 
 
-def restart_program(): #новая генерация (перезагрузка)
+def restart_program(): #новая генерация(перезагрузка)
     python = sys.executable
     os.execl(python, python, * sys.argv)
 
